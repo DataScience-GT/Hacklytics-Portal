@@ -62,7 +62,8 @@ p {
 h1, h2, h3, h4, h5, h6 {
   color: #555;
   line-height: 1em;
-  margin: 0.5em 0 0.5em 0;
+  margin: 0 0 0.5em 0;
+	font-family: "Oswald";
 }
 
   h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
@@ -133,8 +134,18 @@ ul.icons {
 
   ul.icons li {
     display: inline-block;
-    padding: 0 1.25em 0 0;
+    padding: 1.25em;
   }
+
+	img {
+    max-width: auto;
+    max-height: 15em;
+		float: left;
+		display: inline-block;
+		overflow: hidden;
+		padding: 0 2em 2em 0;
+		vertical-align: center;
+}
 
 
   .button {
@@ -215,6 +226,7 @@ ul.icons {
   			}
 
 
+
         /* Header */
 
         	#header {
@@ -233,14 +245,18 @@ ul.icons {
           #header h1, #header h2, #header h3, #header h4, #header h5,
 					#header h6, #header strong, #header b, #header p {
             color: #ffffff;
-          }
+					}
 
 					#header h1 {
 						margin: 2em 0 0.5em 0;
+						transform: scale(1.35);
+						text-shadow: 2px 2px 15px #000000;
 					}
 
 					#header h5 {
 						padding: 0 0 1em 0;
+						text-shadow: 2px 2px 8px #000000;
+						font-family: "Roboto";
 					}
 
 					#header .button {
@@ -248,31 +264,30 @@ ul.icons {
 						color: #ffffff !important;
 					}
 
-
 					/* Footer */
 
 						#footer {
 							padding: 6em 0 6em 0 ;
-							background-attachment: fixed,							fixed,							fixed;
+							background-attachment: fixed,fixed,fixed;
 							background-image: url("background_dark.png");
 							background-position: top left,center center,center center;
-							background-size: 100% auto,							cover,							cover;
+							background-size: 100% auto,cover,cover;
 							text-align: center;
 							overflow: hidden;
 							color: white;
 						}
 
-							#footer a {
-								border-bottom-color: rgba(255, 255, 255, 0.5);
+						#footer a {
+							border-bottom-color: rgba(255, 255, 255, 0.5);
+						}
 
-							}
-
-								#footer a:hover {
-									color: #ffffff;
-								}
+						#footer a:hover {
+									color: #78D5CE;
+						}
 
 							#footer h1, #footer h2, #footer h3, #footer h4, #footer h5, #footer h6, #footer strong, #footer b {
 								color: #ffffff;
+								text-shadow: 2px 2px 5px #000000;
 							}
 
 							#footer header p {
@@ -285,6 +300,7 @@ ul.icons {
 
 							#footer .icons {
 								margin: 0;
+								transform: scale(3.5)
 							}
 
 							#footer .copyright {
