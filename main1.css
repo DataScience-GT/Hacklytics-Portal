@@ -258,10 +258,14 @@ ul.icons {
 						display: none;
 					}
 
+					#header strong {
+						font-weight: 600;
+					}
+
 					#header h5 {
 						padding: 0 0 1em 0;
 						text-shadow: 2px 2px 8px #000000;
-						font-family: "Roboto";
+						font-family: "Roboto", sans-serif;
 					}
 
 					#header .button {
