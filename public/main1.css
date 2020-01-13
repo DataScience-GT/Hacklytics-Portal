@@ -147,6 +147,13 @@ ul.icons {
 		vertical-align: center;
 }
 
+img.sponsor {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	float: none;
+}
+
 
   .button {
 		-moz-appearance: none;
@@ -187,6 +194,9 @@ ul.icons {
 		max-width: calc(100% - 4em);
 		width: 60em;
 	}
+
+
+
 
   /* Main */
 
@@ -258,10 +268,14 @@ ul.icons {
 						display: none;
 					}
 
+					#header strong {
+						font-weight: 600;
+					}
+
 					#header h5 {
 						padding: 0 0 1em 0;
 						text-shadow: 2px 2px 8px #000000;
-						font-family: "Roboto";
+						font-family: "Roboto", sans-serif;
 					}
 
 					#header .button {
