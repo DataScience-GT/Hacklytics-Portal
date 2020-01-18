@@ -244,8 +244,16 @@ img.sponsor {
 
   			.main.style2 header.major:after {
   				background: #ffffff;
-  			}
+			  }
+			  
+.flexBox {
+	display: flex;
+    flex-flow: row wrap;
+}
 
+.flexItem {
+	flex-grow: 1;
+}
 
 
         /* Header */
