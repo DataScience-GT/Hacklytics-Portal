@@ -85,7 +85,84 @@
 				<header class="major">
 					<h2>FAQs</h2>
 					</header>
-					<p>Coming soon!</p>
+					<button class="accordion">What is Hacklytics?</button>
+					<div class="panel">
+						<p><br>Hacklytics is Georgia Tech’s 24 hour datathon brought to you by Data Science at Georgia Tech! Our theme for this year is "Change the World" with a focus on sustainability and growth. We hope to see fun, impactful and insightful projects that seek to bring change to society.</p>
+					</div>
+					<button class="accordion">What is a datathon?</button>
+					<div class="panel">
+						<p><br>A datathon is a specific type of hackathon that focuses on data science. While this may make them seem constricted, we choose to approach them with the same idea as a normal hackathon, but applied to data science: whatever data you want, whatever language you want, whichever APIs you want, whatever ML/DL algorithm to analyze it you want.  You can create visualizations, make a model, come up with insights and anything you find impactful!</p>
+					</div>
+					<button class="accordion">When and where is it?</button>
+					<div class="panel">
+						<p><br>Hacklytics will be held from February 22nd-23rd 2020 in the Klaus Advanced Computing Building, (266 Ferst Dr NW, Atlanta, GA 30332).</p>
+					</div>
+					<button class="accordion">Where can I apply?</button>
+					<div class="panel">
+						<p><br>You can fill out the form using the following link: 
+							<a href = https://hacklytics2020.typeform.com/to/dOi5eU>tiny.cc/hacklytics-apply.</a> 
+						    <br>
+						    Applications close February 1st!</p>
+					</div>
+					<button class="accordion">How are applicants selected?</button>
+					<div class="panel">
+						<p><br>We will evaluate your responses to our questions and interest in participating and making the most of the datathon. (Don't worry - we won't be judging your writing skills!)</p>
+					</div>
+					<button class="accordion">How can I mentor or volunteer?</button>
+					<div class="panel">
+						<p><br>We will have mentors and volunteer forms up shortly. Keep an eye out for those!</p>
+					</div>
+					<button class="accordion">What if I don’t have a team?</button>
+					<div class="panel">
+						<p><br>Teams of up to 4 people are permitted. We will have a channel in Slack for other people who need to find a team and we will allow for team-building time before the hacking begins. </p>
+					</div>
+					<button class="accordion">How much will I spend?</button>
+					<div class="panel">
+						<p><br>Nothing at all! Hacklytics is free of cost for you to attend and we will be providing food and hacking space.</p>
+					</div>
+					<button class="accordion">Can high school students attend?</button>
+					<div class="panel">
+						<p><br>Minors and non-students are not allowed to attend Hacklytics.</p>
+					</div>
+					<button class="accordion">Will I be sitting at my computer all day?</button>
+					<div class="panel">
+						<p><br>We have events and workshops as well as networking sessions planned out for you throughout the day, so you have something to do while that model finishes training!</p>
+					</div>
+					<button class="accordion">Do I need to be an expert?</button>
+					<div class="panel">
+						<p><br>Not at all! We welcome students with varying skill levels, and we have workshops and sessions planned for you to learn something. So whether you are a beginner or an experienced data scientist, we will have something for you!</p>
+					</div>
+					<button class="accordion">What should I bring?</button>
+					<div class="panel">
+						<p><br>Any hacking gear you need (laptop, hardware, chargers, batteries, etc.), comfortable clothes, toiletries (toothpaste, toothbrush, deodorant, etc.), a photo ID for registration, a government ID to rent hardware, and most importantly, yourself!</p>
+					</div>
+					<button class="accordion">Will I be reimbursed for travel expenses?</button>
+					<div class="panel">
+						<p><br>Unfortunately this year we will not be able to provide travel reimbursements to students.</p>
+					</div>
+					<button class="accordion">How do I get in touch?</button>
+					<div class="panel">
+						<p><br>Contact us at hacklyticsgt2020@gmail.com!</p>
+					</div>
+					<button class="accordion">Is there a Code of Conduct?</button>
+					<div class="panel">
+						<p><br>All hackers must adhere to the <a href="https://static.mlh.io/docs/mlh-code-of-conduct.pdf" target="_blank">MLH code of conduct.</a></p>
+					</div>
+					<script>
+						var acc = document.getElementsByClassName("accordion");
+						var i;
+						for (i = 0; i < acc.length; i++) {
+						  acc[i].addEventListener("click", function() {
+						    this.classList.toggle("active");
+						    var panel = this.nextElementSibling;
+						    if (panel.style.maxHeight) {
+						      panel.style.maxHeight = null;
+						    } else {
+						      panel.style.maxHeight = panel.scrollHeight + "px";
+						    } 
+						  });
+						}
+					</script>
 				</div>
 			</section>
 

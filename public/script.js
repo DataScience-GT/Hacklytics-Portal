@@ -267,6 +267,8 @@ function lineDistance( x1, y1, x2, y2 )
 
 
 
+
+
 $(document).ready(function() {
 
   var canvas = document.getElementById("theCanvas");

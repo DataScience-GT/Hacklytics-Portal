@@ -150,6 +150,35 @@ ul.icons {
 		vertical-align: center;
 }
 
+.accordion {
+  background-color: #555;
+  color: #FFF;
+  font-family: 'Roboto', sans-serif;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 20px;
+  transition: 0.4s;
+}
+
+ .active, .accordion:hover {
+ 	background-color: #696969;
+ }
+ .panel {
+  padding: 0 18px;
+  background-color: #fff;
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  color: #555;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+
+
 img.sponsor {
 	display: block;
 	margin-left: auto;
