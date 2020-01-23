@@ -179,7 +179,19 @@ img.sponsor3 {
 	margin-right: auto;
 	float: none;
 	width: 100%;
-	max-width: 8.5em;
+	max-width: 13em;
+	height: auto;
+	vertical-align: middle;
+	margin-bottom: 2em;
+}
+
+img.sponsor4 {
+	display: inline-block;
+	margin-left: auto;
+	margin-right: auto;
+	float: none;
+	width: 100%;
+	max-width: 6em;
 	height: auto;
 	vertical-align: middle;
 	margin-bottom: 2em;
