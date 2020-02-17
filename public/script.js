@@ -1,7 +1,7 @@
 var FRAMERATE_FPS= 30;            //in FPS
 var CONNECTION_DISTANCE = 200;    //in px
-var MAX_NODES = 20;                //just a number!
-var MAX_CONNECTIONS = 2;                //just a number!
+var MAX_NODES = 80;                //just a number!
+var MAX_CONNECTIONS = 4;                //just a number!
 
 
 //animation helper
@@ -243,6 +243,8 @@ function lineDistance( x1, y1, x2, y2 )
 
   return Math.sqrt( xs + ys );
 }
+
+
 
 
 
